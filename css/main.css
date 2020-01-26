@@ -1,0 +1,42 @@
+.img-wrapper{
+  display: inline-block;
+  width: 15%;
+  padding: 35px 60px;
+}
+.h1{
+  background-color: yellow;
+  text-align: center;
+}
+
+body{
+  background:#efefef;
+}
+
+#cloud:hover { fill: gray; }
+
+#moon:hover { fill: #f4e553; }
+
+#sun:hover { fill: yellow; }
+
+#rainy:hover #water_drop { fill: #5299ef; }
+#rainy:hover #cloud { fill: #232526; }
+
+#thunder:hover #cloud { fill: #232526; }
+#thunder:hover #lightning { fill: yellow; }
+
+#snowing:hover #cloud { fill: #232526; }
+#snowing:hover #snow { fill: #E0FFFF; }
+
+#sunny_rain:hover #cloud { fill: #708090; }
+#sunny_rain:hover #sun { fill: yellow; }
+#sunny_rain:hover #water_drop { fill: #5299ef; }
+
+#clear_to_overcast:hover #cloud { fill: gray; }
+#clear_to_overcast:hover #sun { fill: yellow; }
+
+#sleet:hover #cloud { fill: #232526; }
+#sleet:hover #snow { fill: #E0FFFF; }
+#sleet:hover #water_drop { fill: #5299ef; }
+
+#fog:hover #cloud { fill: #696969; }
+#fog:hover #line { fill: #696969; }
